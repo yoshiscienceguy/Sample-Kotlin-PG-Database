@@ -47,9 +47,8 @@ android {
 }
 
 dependencies {
-        implementation("org.postgresql:postgresql:42.2.9") // Use latest version
 
-
+    implementation ("net.objecthunter:exp4j:0.4.8")
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation("androidx.activity:activity-compose:1.7.0")
